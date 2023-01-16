@@ -8,6 +8,9 @@ img {
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
+
+    width: 35%;
+    height: auto;
 }
 
 .hl {
@@ -19,14 +22,13 @@ body {
     background: #2c343a;
     color: #fff;
     font-family: 'helvetica neue', sans-serif;
-    font-weight: 100;
-    font-size: 50px;
+    font-size: 1em;
 }
 
 .controls {
-    margin-bottom: 50px;
+    margin-bottom: 2em;
 }
 
 input {
-    width: 100px;
+    width: 5em;
 }
